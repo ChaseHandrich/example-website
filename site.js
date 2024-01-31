@@ -14,3 +14,11 @@ contactlink.style.fontWeight = "bold"
 
 const links = document.querySelectorAll('nav a')
 links.forEach(link => link.style.textDecoration = 'underline')
+    
+const person = {
+    "firstName":"Chase",
+    "lastName":"Handrich",
+    "job":"Nerd"
+}
+
+console.log(person)
